@@ -1,0 +1,7 @@
+body {
+  @apply antialiased text-primary-950;
+}
+
+button:not(:disabled) {
+  @apply cursor-pointer;
+}

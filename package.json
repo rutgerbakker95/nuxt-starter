@@ -1,0 +1,46 @@
+{
+  "name": "nuxt-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint . --ext .ts,.js,.vue",
+    "lint:style": "stylelint '**/*.{vue,css}'"
+  },
+  "dependencies": {
+    "swiper": "^11.2.10"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.5.2",
+    "@nuxt/eslint-config": "^1.5.2",
+    "@nuxt/scripts": "^0.11.9",
+    "@stylistic/eslint-plugin": "^5.2.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "eslint": "^9.31.0",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-unicorn": "^59.0.1",
+    "eslint-plugin-vue": "^10.3.0",
+    "nuxt": "^4.0.0",
+    "postcss-html": "^1.8.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^16.21.1",
+    "stylelint-config-property-sort-order-smacss": "^10.0.0",
+    "stylelint-config-standard": "^38.0.0",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
+    "vite-plugin-stylelint": "^6.0.2",
+    "vite-svg-loader": "^5.1.0"
+  },
+  "engines": {
+    "node": "^22"
+  },
+  "packageManager": "yarn@4.9.2"
+}

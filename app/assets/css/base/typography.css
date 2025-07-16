@@ -1,0 +1,53 @@
+@utility heading {
+  @apply font-sans font-bold;
+}
+
+@utility h1 {
+  @apply heading text-3xl lg:text-4xl xl:text-5xl;
+}
+
+@utility h2 {
+  @apply heading text-2xl lg:text-3xl xl:text-4xl;
+}
+
+@utility h3 {
+  @apply heading text-xl lg:text-2xl xl:text-3xl;
+}
+
+@utility h4 {
+  @apply heading text-lg lg:text-xl xl:text-2xl;
+}
+
+@utility h5 {
+  @apply heading text-base lg:text-lg xl:text-xl;
+}
+
+@utility h6 {
+  @apply heading text-base;
+}
+
+@layer base {
+  h1 {
+    @apply h1;
+  }
+
+  h2 {
+    @apply h2;
+  }
+
+  h3 {
+    @apply h3;
+  }
+
+  h4 {
+    @apply h4;
+  }
+
+  h5 {
+    @apply h5;
+  }
+
+  h6 {
+    @apply h6;
+  }
+}

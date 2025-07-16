@@ -1,0 +1,16 @@
+/* Taildwind CSS */
+@import 'tailwindcss';
+
+/* Vendor */
+@import './vendor/swiper.css' layer(components);
+
+/* Base */
+@import './base/config.css';
+@import './base/base.css' layer(base);
+@import './base/typography.css';
+
+/* Utilities */
+@import './utilities/container.css';
+
+/* Components */
+@import './components/wysiwyg' layer(components);

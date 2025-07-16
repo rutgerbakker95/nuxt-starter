@@ -1,0 +1,35 @@
+root: true
+extends:
+  - stylelint-config-standard
+  - stylelint-config-property-sort-order-smacss
+rules:
+  no-invalid-position-at-import-rule: null
+  import-notation: string
+  media-query-no-invalid: null
+  no-descending-specificity: null
+  declaration-property-value-no-unknown: null
+  at-rule-no-deprecated:
+    - true
+    - ignoreAtRules:
+      - apply
+  at-rule-no-unknown:
+    - true
+    - ignoreAtRules:
+      - tailwind
+      - apply
+      - layer
+      - responsive
+      - screen
+      - config
+      - theme
+      - utility
+      - custom-variant
+      - reference
+  selector-type-no-unknown: null
+  function-url-quotes: null
+  custom-property-pattern: null
+overrides:
+  - files: ["**/*.vue"]
+    customSyntax: postcss-html
+  - files: ["**/*.css"]
+    customSyntax: postcss-scss

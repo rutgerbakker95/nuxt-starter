@@ -1,0 +1,10 @@
+@theme {
+  /* Container */
+  --container-8xl: 105rem; /* 1680px */
+
+  /* Colors */
+  --color-primary-500: #12abe5;
+  --color-primary-600: #0695d4;
+  --color-primary-700: #066d9e;
+  --color-primary-950: #102437;
+}
