@@ -1,9 +1,6 @@
 /* Taildwind CSS */
 @import 'tailwindcss';
 
-/* Vendor */
-@import './vendor/swiper.css' layer(components);
-
 /* Base */
 @import './base/config.css';
 @import './base/base.css' layer(base);
